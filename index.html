@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Pokemon Search</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" src="styles.css">
+    </head>
+    <body>
+        <div id="container">
+            <h1>Pokemon Search App</h1>
+            <form>
+            <legend>Search for pokemon name or ID:</legend>
+            <input type="text" id="search-input">
+            <button id="search-button">Search</button>
+            
+            <div id="info">
+                <span id="pokemon-name"></span>
+                <span id="pokemon-id"></span>
+            </div>
+
+            <div id="measurements">
+                <span id="Weight"></span>
+                <span id="height"></span>
+            </div>
+
+            <div id="image"></div>
+
+            <section id="types">
+                <span></span>
+                <span></span>
+            </section>
+
+            <seciton id="stats">
+                <table>
+                    <tr>
+                        <th>Base</th>
+                        <th>Stats</th>
+                    </tr>
+
+                    <tr>
+                        <td id="HP">HP:</td>
+                        <td id="hpValue"></td>
+                    </tr>
+
+                    <tr>
+                        <td id="Attack">Attack:</td>
+                        <td id="AttackValue"></td>
+                    </tr>
+
+                    <tr>
+                        <td id="Defense">Defense:</td>
+                        <td id="DefenseValue"></td>
+                    </tr>
+
+                    <tr>
+                        <td id="special-attack">Sp.attack:</td>
+                        <td id="special-attackValue"></td>
+                    </tr>
+
+                    <tr>
+                        <td id="special-defense">Sp.defense:</td>
+                        <td id="special-defenseValue"></td>
+                    </tr>
+
+                    <tr>
+                        <td id="speed">Speed:</td>
+                        <td id="speedValue"></td>
+                    </tr>
+
+                </table>
+            </seciton>
+
+            
+            </form>
+
+        </div>
+        <script href="script.js"></script>
+    </body>
+</html>
