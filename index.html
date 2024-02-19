@@ -10,31 +10,33 @@
         <div id="container">
             <h1>Pokemon Search App</h1>
             <form>
-            <legend>Search for pokemon name or ID:</legend>
+            <h3>Search for pokemon name or ID:</h3>
             <input type="text" id="search-input">
-            <button id="search-button">Search</button>
+            <button id="search-button" type="submit">Search</button>
             
             <div id="info">
+                <div class="name">
                 <span id="pokemon-name"></span>
                 <span id="pokemon-id"></span>
-
+                </div>
+            
             <div id="measurements">
-                <span id="Weight"></span>
+                <span id="weight"></span>
                 <span id="height"></span>
             </div>
 
             <div id="image"></div>
 
             <div id="types">
-                <span></span>
-                <span></span>
+                <span class="typesButton"></span>
             </div>
             </div>
+            
             <div id="stats">
                 <table>
                     <tr>
-                        <th>Base</th>
-                        <th>Stats</th>
+                        <th>BASE</th>
+                        <th>STATS</th>
                     </tr>
 
                     <tr>
@@ -70,7 +72,6 @@
                 </table>
             </div>
 
-            
             </form>
 
         </div>
