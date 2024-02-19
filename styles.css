@@ -1,0 +1,28 @@
+#container{
+    width:500px;
+    margin:0 auto;
+    padding:20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+    height:800px;
+
+}
+
+table,tr,td{
+    border:1px solid black;
+    border-collapse: collapse;
+    width:500px;
+    text-align: center;
+}
+
+
+#info,#measurements,#image,#types,#stats{
+    margin-top:10px;
+}
+
+#info{
+    height:400px;
+    background-color: antiquewhite;
+}
